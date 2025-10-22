@@ -337,8 +337,8 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-6 mb-12">
               <Card className="text-center">
                 <CardHeader>
-                  <div className="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-2xl flex items-center justify-center">
-                    <Icon name="ShieldCheck" className="text-primary" size={32} />
+                  <div className="w-16 h-16 mx-auto mb-4 bg-gray-700 rounded-2xl flex items-center justify-center">
+                    <Icon name="ShieldCheck" className="text-white" size={32} />
                   </div>
                   <CardTitle>Верификация</CardTitle>
                 </CardHeader>
@@ -351,8 +351,8 @@ const Index = () => {
 
               <Card className="text-center">
                 <CardHeader>
-                  <div className="w-16 h-16 mx-auto mb-4 bg-secondary/10 rounded-2xl flex items-center justify-center">
-                    <Icon name="Users" className="text-secondary" size={32} />
+                  <div className="w-16 h-16 mx-auto mb-4 bg-gray-700 rounded-2xl flex items-center justify-center">
+                    <Icon name="Users" className="text-white" size={32} />
                   </div>
                   <CardTitle>Широкий выбор</CardTitle>
                 </CardHeader>
@@ -365,8 +365,8 @@ const Index = () => {
 
               <Card className="text-center">
                 <CardHeader>
-                  <div className="w-16 h-16 mx-auto mb-4 bg-primary/10 rounded-2xl flex items-center justify-center">
-                    <Icon name="Zap" className="text-primary" size={32} />
+                  <div className="w-16 h-16 mx-auto mb-4 bg-gray-700 rounded-2xl flex items-center justify-center">
+                    <Icon name="Zap" className="text-white" size={32} />
                   </div>
                   <CardTitle>Быстро</CardTitle>
                 </CardHeader>
@@ -395,8 +395,8 @@ const Index = () => {
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
-                    <Icon name="Shield" className="text-primary" size={24} />
+                  <div className="w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center">
+                    <Icon name="Shield" className="text-white" size={24} />
                   </div>
                 </div>
                 <div>
@@ -409,8 +409,8 @@ const Index = () => {
 
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center">
-                    <Icon name="Scale" className="text-secondary" size={24} />
+                  <div className="w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center">
+                    <Icon name="Scale" className="text-white" size={24} />
                   </div>
                 </div>
                 <div>
@@ -423,8 +423,8 @@ const Index = () => {
 
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-primary/10 rounded-xl flex items-center justify-center">
-                    <Icon name="Heart" className="text-primary" size={24} />
+                  <div className="w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center">
+                    <Icon name="Heart" className="text-white" size={24} />
                   </div>
                 </div>
                 <div>
@@ -437,8 +437,8 @@ const Index = () => {
 
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
-                  <div className="w-12 h-12 bg-secondary/10 rounded-xl flex items-center justify-center">
-                    <Icon name="TrendingUp" className="text-secondary" size={24} />
+                  <div className="w-12 h-12 bg-gray-700 rounded-xl flex items-center justify-center">
+                    <Icon name="TrendingUp" className="text-white" size={24} />
                   </div>
                 </div>
                 <div>
