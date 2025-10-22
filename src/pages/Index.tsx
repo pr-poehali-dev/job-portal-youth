@@ -83,23 +83,23 @@ const Index = () => {
   });
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white">
-      <header className="border-b bg-white/80 backdrop-blur-sm sticky top-0 z-50">
+    <div className="min-h-screen bg-black">
+      <header className="border-b border-gray-800 bg-black/80 backdrop-blur-sm sticky top-0 z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <div className="w-10 h-10 bg-black rounded-xl flex items-center justify-center">
                 <Icon name="TrendingUp" className="text-white" size={24} />
               </div>
-              <span className="text-2xl font-bold text-black">
+              <span className="text-2xl font-bold text-white">
                 УСПЕХ 14
               </span>
             </div>
             
             <nav className="hidden md:flex items-center gap-6">
-              <a href="#vacancies" className="text-sm font-medium hover:text-primary transition-colors">Вакансии</a>
-              <a href="#employers" className="text-sm font-medium hover:text-primary transition-colors">Для работодателей</a>
-              <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">О платформе</a>
+              <a href="#vacancies" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">Вакансии</a>
+              <a href="#employers" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">Для работодателей</a>
+              <a href="#about" className="text-sm font-medium text-gray-300 hover:text-white transition-colors">О платформе</a>
             </nav>
 
             <div className="flex items-center gap-2">
@@ -210,13 +210,13 @@ const Index = () => {
       <section className="py-16 md:py-24">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in">
-            <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
+            <h1 className="text-4xl md:text-6xl font-bold tracking-tight text-white">
               Первая работа для{' '}
-              <span className="text-black">
+              <span className="text-gray-300">
                 подростков
               </span>
             </h1>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+            <p className="text-xl text-gray-400 max-w-2xl mx-auto">
               Безопасная платформа для поиска работы с 14 лет. Только проверенные работодатели.
             </p>
             
@@ -245,26 +245,26 @@ const Index = () => {
 
             <div className="flex items-center justify-center gap-6 pt-4">
               <div className="flex items-center gap-2">
-                <Icon name="ShieldCheck" className="text-secondary" size={20} />
-                <span className="text-sm text-muted-foreground">Безопасно</span>
+                <Icon name="ShieldCheck" className="text-gray-400" size={20} />
+                <span className="text-sm text-gray-400">Безопасно</span>
               </div>
               <div className="flex items-center gap-2">
-                <Icon name="CheckCircle" className="text-secondary" size={20} />
-                <span className="text-sm text-muted-foreground">Проверенные вакансии</span>
+                <Icon name="CheckCircle" className="text-gray-400" size={20} />
+                <span className="text-sm text-gray-400">Проверенные вакансии</span>
               </div>
               <div className="flex items-center gap-2">
-                <Icon name="Clock" className="text-secondary" size={20} />
-                <span className="text-sm text-muted-foreground">Гибкий график</span>
+                <Icon name="Clock" className="text-gray-400" size={20} />
+                <span className="text-sm text-gray-400">Гибкий график</span>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <section id="vacancies" className="py-12 bg-white">
+      <section id="vacancies" className="py-12 bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between mb-8">
-            <h2 className="text-3xl font-bold">Актуальные вакансии</h2>
+            <h2 className="text-3xl font-bold text-white">Актуальные вакансии</h2>
             <Badge variant="secondary" className="text-sm">
               {filteredJobs.length} {filteredJobs.length === 1 ? 'вакансия' : 'вакансий'}
             </Badge>
@@ -317,12 +317,12 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="employers" className="py-16 bg-gray-50">
+      <section id="employers" className="py-16 bg-black">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h2 className="text-3xl md:text-4xl font-bold mb-4">Для работодателей</h2>
-              <p className="text-lg text-muted-foreground">
+              <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Для работодателей</h2>
+              <p className="text-lg text-gray-400">
                 Найдите ответственных и мотивированных молодых сотрудников
               </p>
             </div>
@@ -381,10 +381,10 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="about" className="py-16">
+      <section id="about" className="py-16 bg-gray-900">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-6">Почему Teen Jobs?</h2>
+            <h2 className="text-3xl font-bold mb-6 text-white">Почему Успех 14?</h2>
             <div className="grid md:grid-cols-2 gap-6 text-left">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
@@ -446,7 +446,7 @@ const Index = () => {
         </div>
       </section>
 
-      <footer className="border-t py-8 bg-white">
+      <footer className="border-t border-gray-800 py-8 bg-black">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
@@ -455,14 +455,14 @@ const Index = () => {
               </div>
               <span className="font-bold">УСПЕХ 14</span>
             </div>
-            <p className="text-sm text-muted-foreground">
+            <p className="text-sm text-gray-500">
               © 2024 Успех 14. Безопасная работа для подростков.
             </p>
             <div className="flex gap-4">
-              <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">
                 Условия использования
               </a>
-              <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="#" className="text-sm text-gray-500 hover:text-white transition-colors">
                 Конфиденциальность
               </a>
             </div>
