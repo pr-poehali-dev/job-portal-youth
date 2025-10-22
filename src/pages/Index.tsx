@@ -88,11 +88,11 @@ const Index = () => {
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-xl flex items-center justify-center">
-                <Icon name="Briefcase" className="text-white" size={24} />
+              <div className="w-10 h-10 bg-black rounded-xl flex items-center justify-center">
+                <Icon name="TrendingUp" className="text-white" size={24} />
               </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                TEEN JOBS
+              <span className="text-2xl font-bold text-black">
+                УСПЕХ 14
               </span>
             </div>
             
@@ -191,9 +191,9 @@ const Index = () => {
                         <Label htmlFor="emp-password">Пароль</Label>
                         <Input id="emp-password" type="password" />
                       </div>
-                      <div className="flex items-center gap-2 p-3 bg-blue-50 rounded-lg border border-blue-200">
-                        <Icon name="ShieldCheck" size={20} className="text-blue-600" />
-                        <p className="text-xs text-blue-900">
+                      <div className="flex items-center gap-2 p-3 bg-gray-100 rounded-lg border border-gray-300">
+                        <Icon name="ShieldCheck" size={20} className="text-black" />
+                        <p className="text-xs text-gray-900">
                           После регистрации мы проверим ваши данные для получения бейджа верификации
                         </p>
                       </div>
@@ -212,7 +212,7 @@ const Index = () => {
           <div className="max-w-4xl mx-auto text-center space-y-6 animate-fade-in">
             <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
               Первая работа для{' '}
-              <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+              <span className="text-black">
                 подростков
               </span>
             </h1>
@@ -317,7 +317,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="employers" className="py-16 bg-gradient-to-br from-primary/5 to-secondary/5">
+      <section id="employers" className="py-16 bg-gray-50">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
@@ -450,13 +450,13 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-                <Icon name="Briefcase" className="text-white" size={16} />
+              <div className="w-8 h-8 bg-black rounded-lg flex items-center justify-center">
+                <Icon name="TrendingUp" className="text-white" size={16} />
               </div>
-              <span className="font-bold">TEEN JOBS</span>
+              <span className="font-bold">УСПЕХ 14</span>
             </div>
             <p className="text-sm text-muted-foreground">
-              © 2024 Teen Jobs Platform. Безопасная работа для подростков.
+              © 2024 Успех 14. Безопасная работа для подростков.
             </p>
             <div className="flex gap-4">
               <a href="#" className="text-sm text-muted-foreground hover:text-primary transition-colors">
