@@ -191,9 +191,9 @@ const Index = () => {
                         <Label htmlFor="emp-password">Пароль</Label>
                         <Input id="emp-password" type="password" />
                       </div>
-                      <div className="flex items-center gap-2 p-3 bg-gray-100 rounded-lg border border-gray-300">
-                        <Icon name="ShieldCheck" size={20} className="text-black" />
-                        <p className="text-xs text-gray-900">
+                      <div className="flex items-center gap-2 p-3 bg-gray-800 rounded-lg border border-gray-700">
+                        <Icon name="ShieldCheck" size={20} className="text-gray-300" />
+                        <p className="text-xs text-gray-300">
                           После регистрации мы проверим ваши данные для получения бейджа верификации
                         </p>
                       </div>
