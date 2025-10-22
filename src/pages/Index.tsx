@@ -261,7 +261,7 @@ const Index = () => {
         </div>
       </section>
 
-      <section id="vacancies" className="py-12 bg-gray-900">
+      <section id="vacancies" className="py-12 bg-gray-800">
         <div className="container mx-auto px-4">
           <div className="flex items-center justify-between mb-8">
             <h2 className="text-3xl font-bold text-white">Актуальные вакансии</h2>
