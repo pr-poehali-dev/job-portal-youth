@@ -271,8 +271,15 @@ const Index = () => {
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {filteredJobs.map((job) => (
-              <Card key={job.id} className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-scale-in">
+            {filteredJobs.map((job, index) => (
+              <Card 
+                key={job.id} 
+                className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 animate-fade-in opacity-0"
+                style={{ 
+                  animationDelay: `${index * 100}ms`,
+                  animationFillMode: 'forwards'
+                }}
+              >
                 <CardHeader>
                   <div className="flex items-start justify-between gap-2 mb-2">
                     <CardTitle className="text-xl">{job.title}</CardTitle>
